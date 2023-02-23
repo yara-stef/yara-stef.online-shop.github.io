@@ -6,5 +6,7 @@ import App from './App';
 const container = document.getElementById('root');
 const root = ReactDOMClient.createRoot(container);
 
+
+
 root.render(<App tab="home" />);
 root.render(<App tab="profile" />);
