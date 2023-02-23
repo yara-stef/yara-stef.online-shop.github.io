@@ -1,0 +1,11 @@
+.modal-body {
+    width: 300px;
+}
+
+.add-products {
+    color: white;
+}
+
+.add-products.hidden {
+    display: none;
+}

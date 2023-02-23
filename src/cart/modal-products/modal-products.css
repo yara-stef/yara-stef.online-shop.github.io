@@ -1,0 +1,58 @@
+.modal-products {
+    padding-left: 0;
+}
+
+.modal-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    list-style: none;
+    text-align: start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product-image-cart {
+    width: 70px;
+    height: 100px;
+}
+
+.product-name {
+    color: white;
+}
+
+.quantity {
+    color: grey;
+}
+
+.price {
+    color: rgba(226, 183, 66, 0.767);
+}
+
+.btn-close {
+    background-color: rgb(77, 73, 73);
+    border-color: rgb(77, 73, 73);
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+
+.btn-change-quantity {
+    padding-top: 10px;
+}
+
+.decrement {
+    background-color: rgba(0, 0, 0, 0.822);
+    color: grey;
+    cursor: pointer;
+}
+
+.increment {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

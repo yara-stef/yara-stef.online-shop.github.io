@@ -1,0 +1,35 @@
+.shopping-bag {
+    display: block;
+    background-size: 100% 100%;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 8;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-bottom: 3px solid rgba(226, 210, 66, 0.767);
+    border-left: 3px solid rgba(226, 210, 66, 0.767);
+}
+
+.shopping-bag.hidden {
+    display: none;
+}
+
+.shopping-bag-img {
+    margin: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.total-items-in-cart {
+    background-color: rgb(226, 210, 66);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 0px;
+}

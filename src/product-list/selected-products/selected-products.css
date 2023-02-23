@@ -1,0 +1,12 @@
+.selected-products {
+    position: relative;
+    top: 0%;
+    left: 230px;
+    padding-left: 30px;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .selected-products {
+        position: static;
+    }
+}

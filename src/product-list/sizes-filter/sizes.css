@@ -1,0 +1,41 @@
+.sizes {
+    position: fixed;
+    left: 0%;
+    top: 0;
+    width: 200px;
+    padding-left: 20px;
+}
+
+.btn-size {
+    border: 0cm;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    font-size: 0.7em;
+    box-shadow: none;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: rgb(231, 234, 238);
+    margin-bottom: 15px;
+}
+
+.btn-size.active {
+    background-color: black;
+    color: white;
+    border: 0cm;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    font-size: 0.7em;
+    box-shadow: none;
+    margin-right: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .sizes {
+        position: relative;
+        width: auto;
+    }
+}

@@ -1,0 +1,43 @@
+.modal-header {
+    display: grid;
+    width: 250px;
+}
+
+.modal-header-inner {
+    display: flex;
+    justify-content: center;
+}
+
+.shopping-bag-img {
+    margin: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.total-items-in-cart {
+    background-color: rgba(226, 183, 66, 0.767);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.modal-title {
+    color: white;
+    margin-left: 10px;
+}
+
+.close {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 0;
+}
+
+.close:hover,
+.close:focus {
+    text-decoration: none;
+    cursor: pointer;
+}

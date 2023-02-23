@@ -1,0 +1,9 @@
+@import url(./product-list/sizes-filter/sizes.css);
+@import url(./product-list/selected-products/selected-products.css);
+@import url(./product-list/product-card/product-card.css);
+@import url(./product-list/cart-icon/cart-icon.css);
+@import url(./cart/cart.css);
+@import url(./cart/modal-header/modal-header.css);
+@import url(./cart/modal-body/modal-body.css);
+@import url(./cart/modal-products/modal-products.css);
+@import url(./cart/modal-footer/modal-footer.css);
